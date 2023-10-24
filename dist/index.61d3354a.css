@@ -1,0 +1,114 @@
+
+
+.home-bg {
+  color: #fff;
+  text-align: center;
+  background-image: url("https://snipboard.io/R6FbZE.jpg");
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.logo-head {
+  font-family: Permanent Marker, cursive;
+  font-size: 50px;
+}
+
+.get-started {
+  color: #f5f5f5;
+  cursor: pointer;
+  background-color: #0000;
+  border-color: #f5f5f5;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+.seat-map {
+  flex-wrap: wrap;
+  width: 400px;
+  padding-top: 120px;
+  padding-left: 220px;
+  display: flex;
+}
+
+.booking-container {
+  display: flex;
+}
+
+.referance-container {
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 130px;
+}
+
+.span {
+  margin-top: 7px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.icons-container {
+  margin: 25px;
+  display: flex;
+}
+
+.grey-icon {
+  fill: #0bb60b;
+}
+
+.proceed-btn {
+  color: #f5f5f5;
+  background-color: #c40909;
+}
+
+:hover .proceed-btn {
+  background-color: #ff0000e1;
+  border-color: #daa520;
+}
+
+.ticket-type {
+  margin: 20px;
+  right: 15px;
+}
+
+.proceed-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 60%;
+  height: 40px;
+  margin-top: 46px;
+  margin-left: 26px;
+}
+
+.seat {
+  margin: 3px;
+}
+
+:hover .seat {
+  fill: "#008000";
+  cursor: pointer;
+}
+
+.seat-button {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: gray;
+}
+
+.green {
+  color: #14c514;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */

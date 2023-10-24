@@ -1,0 +1,13 @@
+.ticket-type{
+    right : 15px;
+    margin : 20px;
+}
+    
+.proceed-btn{
+    width: 60%;
+    height: 40px;
+    border-radius : 5px;
+    margin-left: 26px;
+    margin-top : 46px;
+    cursor: pointer;
+}
