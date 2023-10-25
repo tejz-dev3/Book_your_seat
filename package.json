@@ -4,22 +4,27 @@
   "description": "bookingmovieseat",
   "main": "index.js",
   "dependencies": {
-   
     "@mui/icons-material": "^5.14.14",
     "@reduxjs/toolkit": "^1.9.7",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
+    "eslint": "^8.52.0",
     "parcel": "^2.10.0",
     "process": "^0.11.10"
+    
   },
   "scripts": {
     "start": "parcel ./public/index.html",
     "build": "parcel build ./public/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
